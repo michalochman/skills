@@ -32,9 +32,9 @@ The plugin is read-only and auto-updates on each push.
 
 ## Skills
 
-- **handoff** — Distills the current session's state (goal, progress, next steps, key files, gotchas) into a compact block for whoever continues the work: a clean-context subagent when results should come back, or a paste-ready block for a fresh session. Invoke with `/handoff`, or it triggers on any request to hand off, delegate, or offload work ("give the next agent everything it needs").
+- **[handoff](skills/handoff/SKILL.md)** — Distills the current session's state (goal, progress, next steps, key files, gotchas) into a compact block for whoever continues the work: a clean-context subagent when results should come back, or a paste-ready block for a fresh session. Invoke with `/handoff`, or it triggers on any request to hand off, delegate, or offload work ("give the next agent everything it needs").
 
-- **speculating** — Marks your prompt as a hypothesis, not a fact. The agent extracts each claim, verifies it against real evidence (reads code, runs commands, checks docs), and opens with an explicit verdict — pushing back plainly when the claim is wrong. Cancels the default bias toward agreeing with your framing. Invoke with `/speculating`, or it triggers automatically on hunches ("I suspect", "my theory is", "I might be wrong but").
+- **[speculating](skills/speculating/SKILL.md)** — Marks your prompt as a hypothesis, not a fact. The agent extracts each claim, verifies it against real evidence (reads code, runs commands, checks docs), and opens with an explicit verdict — pushing back plainly when the claim is wrong. Cancels the default bias toward agreeing with your framing. Invoke with `/speculating`, or it triggers automatically on hunches ("I suspect", "my theory is", "I might be wrong but").
 
 ## License
 
