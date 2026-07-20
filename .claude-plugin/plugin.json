@@ -1,0 +1,7 @@
+{
+  "name": "skills",
+  "description": "Agent skills for coding agents, sourced from real development workflows",
+  "author": {
+    "name": "Michał Ochman"
+  }
+}
